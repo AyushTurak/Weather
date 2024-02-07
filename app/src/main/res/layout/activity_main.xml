@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,40 +8,29 @@
     android:hapticFeedbackEnabled="false"
     tools:context=".MainActivity">
 
-<!--    <SearchView-->
-<!--        android:layout_width="252dp"-->
-<!--        android:layout_height="54dp"-->
-<!--        android:background="@drawable/seachviewshape"-->
-<!--        android:queryHint="@string/searchHint"-->
-<!--        android:iconfiedByDefault="false"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.496"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.064"-->
-<!--        />-->
+    <!--    <SearchView-->
+    <!--        android:layout_width="252dp"-->
+    <!--        android:layout_height="54dp"-->
+    <!--        android:background="@drawable/seachviewshape"-->
+    <!--        android:queryHint="@string/searchHint"-->
+    <!--        android:iconfiedByDefault="false"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.496"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.064"-->
+    <!--        />-->
 
     <TextView
         android:id="@+id/temperature1"
         android:layout_width="175dp"
         android:layout_height="37dp"
-        android:text="@string/textview"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.143" />
+        android:text="@string/textview" />
 
     <TextView
         android:id="@+id/location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tv_temperature"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/temperature1"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="@+id/temperature1"
-        app:layout_constraintTop_toBottomOf="@+id/temperature1"
-        app:layout_constraintVertical_bias="0.177" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="@string/tv_temperature" />
+</LinearLayout>
